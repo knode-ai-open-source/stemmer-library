@@ -1,0 +1,10 @@
+Stemmer Library © 2024–2025 Knode.ai
+Licensed under Apache-2.0 (see LICENSE)
+
+Technical contact: Andy Curtis <contactandyc@gmail.com>
+
+This project incorporates Snowball stemming code
+© 2001 Dr Martin Porter; © 2004–2005 Richard Boulton; © 2013 Yoshiki Shibukawa;
+© 2006–2011, 2014–2019 Olly Betts.  Licensed under the BSD 3-Clause License
+(full text in LICENSE.snowball). Inclusion here does not imply endorsement.
+Licensed under Apache-2.0 (see LICENSE)
