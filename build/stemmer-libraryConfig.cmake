@@ -1,8 +1,0 @@
-
-
-
-# Include directory
-set(stemmer-library_INCLUDE_DIR "/usr/local/include")
-
-# Include the exported targets
-include("${CMAKE_CURRENT_LIST_DIR}/stemmer-libraryTargets.cmake")
