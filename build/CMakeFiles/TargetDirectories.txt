@@ -1,0 +1,9 @@
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/stemmer-library_debug.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/stemmer-library_static.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/uninstall.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/edit_cache.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/rebuild_cache.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/list_install_components.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/install.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/install/local.dir
+/Users/ac/git/knode-ai-open-source/stemmer-library/build/CMakeFiles/install/strip.dir
