@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2024-2025 Knode.ai
+// SPDX-FileCopyrightText: 2025 Andy Curtis <contactandyc@gmail.com>
+// SPDX-FileCopyrightText: 2024–2025 Knode.ai — technical questions: contact Andy (above)
 // SPDX-License-Identifier: Apache-2.0
-// Maintainer: Andy Curtis <contactandyc@gmail.com>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +13,7 @@ static void test_basic_stemming(void) {
     aml_pool_t *pool = aml_pool_init(1024);
     assert(pool != NULL);
 
-    stemmer_t *stem = stemmer_init(pool, 1000);
+    stemmer_t *stem = stemmer_init(1000);
     assert(stem != NULL);
 
     char result[64];
@@ -42,7 +43,7 @@ static void test_cache(void) {
     assert(pool != NULL);
 
     // Test with cache
-    stemmer_t *stem = stemmer_init(pool, 1000);
+    stemmer_t *stem = stemmer_init(1000);
     assert(stem != NULL);
 
     char result[64];
@@ -61,7 +62,7 @@ static void test_cache(void) {
     stemmer_destroy(stem);
 
     // Test without cache
-    stem = stemmer_init(pool, 0);
+    stem = stemmer_init(0);
     assert(stem != NULL);
 
     stemmed1 = stemmer_stem(stem, "running", result);
